@@ -1,3 +1,5 @@
+version: 2 # RTD yaml version
+
 build:
   os: ubuntu-24.04
   tools:
@@ -9,3 +11,5 @@ mkdocs:
 python:
   install:
     - requirements: docs/requirements.txt
+    - method: pip
+      path: mypackage/.  # Installs the package so mkdocstrings can find it

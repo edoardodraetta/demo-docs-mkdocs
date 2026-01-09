@@ -1,3 +1,5 @@
+[![Docs](https://readthedocs.org/projects/demo-docs-mkdocs/badge/)](https://demo-docs-mkdocs.readthedocs.io)
+
 ## 1. Install mkdocs and initialize it
 ```bash
 uv add mkdocs mkdocs-material mkdocstrings\[python\] mkdocs-jupyter
