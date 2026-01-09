@@ -29,3 +29,16 @@ def multiply(a: float, b: float) -> float:
         The product of a and b
     """
     return a * b
+
+
+def subtract(a: float, b: float) -> float:
+    """Subtract b from a.
+
+    Args:
+        a: First number
+        b: Number to subtract
+
+    Returns:
+        The difference of a and b
+    """
+    return a - b
