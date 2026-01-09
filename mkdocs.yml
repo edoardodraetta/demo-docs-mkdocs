@@ -13,7 +13,18 @@ theme:
 
 nav:
   - Home: index.md
+  - Installation: installation.md
+  - Quick Start: quickstart.md
+  - Tutorials:
+    - Overview: tutorials/tutorials.md
+    - Basic Operations: tutorials/basic_operations.ipynb
   - API Reference: api.md
+
+# Enable version drop-down
+extra:
+  version:
+    provider: mike
+    default: latest
 
 plugins:
   - search
@@ -22,3 +33,5 @@ plugins:
         python:
           options:
             show_source: true
+  - mkdocs-jupyter:
+      include_source: True
