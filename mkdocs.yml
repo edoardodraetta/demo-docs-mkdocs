@@ -9,7 +9,7 @@ theme:
     primary: indigo
   features:
     - navigation.tabs
-    # - navigation.sections
+    # - navigation.sections # Disable to collapse
 
 
 nav:
@@ -19,13 +19,15 @@ nav:
   - Tutorials:
     - Overview: tutorials/tutorials.md
     - Basic Operations: tutorials/basic_operations.ipynb
-  - API Reference: 
-    - Math Tools: api/math_tools.md
-    - Statistics: api/statistics.md
+  - API Reference:
+    - Overview: api/index.md
+    - Core:
+        - Math Tools: api/math_tools.md
+        - Statistics: api/statistics.md
     - Advanced:
-      - Overview: api/advanced/index.md
-      - Calculus: api/advanced/calculus.md
-      - Linear Algebra: api/advanced/linear_algebra.md
+        - Overview: api/advanced/index.md
+        - Calculus: api/advanced/calculus.md
+        - Linear Algebra: api/advanced/linear_algebra.md
 
 plugins:
   - search
