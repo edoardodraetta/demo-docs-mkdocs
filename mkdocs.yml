@@ -18,7 +18,9 @@ nav:
   - Tutorials:
     - Overview: tutorials/tutorials.md
     - Basic Operations: tutorials/basic_operations.ipynb
-  - API Reference: api.md
+  - API Reference: 
+    - Math Tools: api/math_tools.md
+    - Statistics: api/statistics.md
 
 # Enable version drop-down
 extra:
