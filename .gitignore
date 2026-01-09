@@ -11,3 +11,4 @@ wheels/
 
 # Site
 site/*
+.DS_Store

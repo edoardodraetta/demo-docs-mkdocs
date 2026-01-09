@@ -9,7 +9,8 @@ theme:
     primary: indigo
   features:
     - navigation.tabs
-    - navigation.sections
+    # - navigation.sections
+
 
 nav:
   - Home: index.md
@@ -21,12 +22,10 @@ nav:
   - API Reference: 
     - Math Tools: api/math_tools.md
     - Statistics: api/statistics.md
-
-# Enable version drop-down
-extra:
-  version:
-    provider: mike
-    default: latest
+    - Advanced:
+      - Overview: api/advanced/index.md
+      - Calculus: api/advanced/calculus.md
+      - Linear Algebra: api/advanced/linear_algebra.md
 
 plugins:
   - search

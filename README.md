@@ -19,15 +19,6 @@ uv run mkdocs serve
 git add .
 git commit -m "Initial version with docs"
 git tag v0.1.0
-```
-
-## 5. Set a default doc site version
-```bash
-uv run mike set-default latest
-```
-
-# 6. Deploy the site locally
-```
-uv run mike deploy 0.1.0 latest --update-aliases
-uv run mike serve
+git push
+git push tags
 ```
