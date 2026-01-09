@@ -3,6 +3,7 @@ site_name: Math Tools Demo
 site_description: A demo package for testing documentation
 repo_url: https://github.com/edoardodraetta/docs-demo-mkdocs
 
+# Material theme block
 theme:
   name: material
   palette:
@@ -11,6 +12,9 @@ theme:
     - navigation.tabs
     # - navigation.sections # Disable to collapse
 
+# # RTD theme block
+# theme:
+#   name: readthedocs
 
 nav:
   - Home: index.md
